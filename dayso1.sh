@@ -1,4 +1,3 @@
-# ham nhap
 function nhap()
 {
 echo -n "So phan tu n = ";
@@ -9,8 +8,7 @@ echo -n "a[$i] = ";
 read a[$i];
 done
 }
-#end nhap
-#ham xuat
+
 function xuat()
 {
 for ((j=0; j<$n; j++))
@@ -19,8 +17,7 @@ echo -ne "${a[$j]}\t"
 done
 echo -e "\n";
 }
-#end xuat
-# ham hoan doi 2 so trong mang
+
 function swap2()
 {
 temp=${a["$1"]}
@@ -28,7 +25,6 @@ a["$1"]=${a["$2"]}
 a["$2"]=$temp
 }
 
-# ham sap xep
 function sort()
 {
 for ((k=0; k<$n - 1; k++))
